@@ -1,0 +1,71 @@
+GO:0000045	autophagosome assembly	biological_process
+GO:0000422	mitophagy	biological_process
+GO:0000423	macromitophagy	biological_process
+GO:0000424	micromitophagy	biological_process
+GO:0000425	macropexophagy	biological_process
+GO:0000426	micropexophagy	biological_process
+GO:0010506	regulation of autophagy	biological_process
+GO:0010507	negative regulation of autophagy	biological_process
+GO:0010508	positive regulation of autophagy	biological_process
+GO:0016236	macroautophagy	biological_process
+GO:0016237	lysosomal microautophagy	biological_process
+GO:0016239	positive regulation of macroautophagy	biological_process
+GO:0016240	autophagosome docking	biological_process
+GO:0016241	regulation of macroautophagy	biological_process
+GO:0016242	negative regulation of macroautophagy	biological_process
+GO:0016243	regulation of autophagosome size	biological_process
+GO:0030242	pexophagy	biological_process
+GO:0030398	peroxisomal membrane disassembly	biological_process
+GO:0030399	autophagosome membrane disassembly	biological_process
+GO:0034263	autophagy in response to ER overload	biological_process
+GO:0034517	ribophagy	biological_process
+GO:0034727	piecemeal microautophagy of nucleus	biological_process
+GO:0035695	mitophagy by induced vacuole formation	biological_process
+GO:0035973	aggrephagy	biological_process
+GO:0039519	modulation by virus of host autophagy	biological_process
+GO:0039520	induction by virus of host autophagy	biological_process
+GO:0039521	suppression by virus of host autophagy	biological_process
+GO:0044804	nucleophagy	biological_process
+GO:0044805	late nucleophagy	biological_process
+GO:0045771	negative regulation of autophagosome size	biological_process
+GO:0045772	positive regulation of autophagosome size	biological_process
+GO:0061684	chaperone-mediated autophagy	biological_process
+GO:0061709	reticulophagy	biological_process
+GO:0061723	glycophagy	biological_process
+GO:0061724	lipophagy	biological_process
+GO:0061734	parkin-mediated mitophagy in response to mitochondrial depolarization	biological_process
+GO:0061735	dynamin-like protein-mediated mitophagy in response to mitochondrial depolarization	biological_process
+GO:0061736	engulfment of target by autophagosome	biological_process
+GO:0061738	late endosomal microautophagy	biological_process
+GO:0071211	protein targeting to vacuole involved in autophagy	biological_process
+GO:0071562	nucleus-vacuole junction assembly	biological_process
+GO:0075044	autophagy of host cells involved in interaction with symbiont	biological_process
+GO:0075071	autophagy involved in symbiotic interaction	biological_process
+GO:0075072	autophagy of symbiont cells involved in interaction with host	biological_process
+GO:0075073	autophagy of symbiont cells on or near host surface	biological_process
+GO:0075074	spore autophagy involved in appressorium formation on or near host	biological_process
+GO:0075191	autophagy of host cells on or near symbiont surface	biological_process
+GO:0097352	autophagosome maturation	biological_process
+GO:0098779	mitophagy in response to mitochondrial depolarization	biological_process
+GO:0098792	xenophagy	biological_process
+GO:1901096	regulation of autophagosome maturation	biological_process
+GO:1901097	negative regulation of autophagosome maturation	biological_process
+GO:1901098	positive regulation of autophagosome maturation	biological_process
+GO:1901524	regulation of macromitophagy	biological_process
+GO:1901525	negative regulation of macromitophagy	biological_process
+GO:1901526	positive regulation of macromitophagy	biological_process
+GO:1902902	negative regulation of autophagosome assembly	biological_process
+GO:1903146	regulation of mitophagy	biological_process
+GO:1903147	negative regulation of mitophagy	biological_process
+GO:1903599	positive regulation of mitophagy	biological_process
+GO:1904051	regulation of protein targeting to vacuole involved in autophagy	biological_process
+GO:1904052	negative regulation of protein targeting to vacuole involved in autophagy	biological_process
+GO:1904053	positive regulation of protein targeting to vacuole involved in autophagy	biological_process
+GO:1904415	regulation of xenophagy	biological_process
+GO:1904416	negative regulation of xenophagy	biological_process
+GO:1904417	positive regulation of xenophagy	biological_process
+GO:1904502	regulation of lipophagy	biological_process
+GO:1904503	negative regulation of lipophagy	biological_process
+GO:1904504	positive regulation of lipophagy	biological_process
+GO:2000785	regulation of autophagosome assembly	biological_process
+GO:2000786	positive regulation of autophagosome assembly	biological_process

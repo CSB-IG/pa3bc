@@ -1,0 +1,365 @@
+GO:0001781	neutrophil apoptotic process	biological_process
+GO:0001783	B cell apoptotic process	biological_process
+GO:0001836	release of cytochrome c from mitochondria	biological_process
+GO:0001844	protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	biological_process
+GO:0002342	central B cell deletion	biological_process
+GO:0002454	peripheral B cell deletion	biological_process
+GO:0002516	B cell deletion	biological_process
+GO:0002867	regulation of B cell deletion	biological_process
+GO:0002868	negative regulation of B cell deletion	biological_process
+GO:0002869	positive regulation of B cell deletion	biological_process
+GO:0002898	regulation of central B cell deletion	biological_process
+GO:0002899	negative regulation of central B cell deletion	biological_process
+GO:0002900	positive regulation of central B cell deletion	biological_process
+GO:0002901	mature B cell apoptotic process	biological_process
+GO:0002902	regulation of B cell apoptotic process	biological_process
+GO:0002903	negative regulation of B cell apoptotic process	biological_process
+GO:0002904	positive regulation of B cell apoptotic process	biological_process
+GO:0002905	regulation of mature B cell apoptotic process	biological_process
+GO:0002906	negative regulation of mature B cell apoptotic process	biological_process
+GO:0002907	positive regulation of mature B cell apoptotic process	biological_process
+GO:0002908	regulation of peripheral B cell deletion	biological_process
+GO:0002909	negative regulation of peripheral B cell deletion	biological_process
+GO:0002910	positive regulation of peripheral B cell deletion	biological_process
+GO:0003275	apoptotic process involved in outflow tract morphogenesis	biological_process
+GO:0003276	apoptotic process involved in heart valve morphogenesis	biological_process
+GO:0003277	apoptotic process involved in endocardial cushion morphogenesis	biological_process
+GO:0003278	apoptotic process involved in heart morphogenesis	biological_process
+GO:0003296	apoptotic process involved in atrial ventricular junction remodeling	biological_process
+GO:0003377	regulation of apoptosis by sphingosine-1-phosphate signaling pathway	biological_process
+GO:0006309	apoptotic DNA fragmentation	biological_process
+GO:0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:0006921	cellular component disassembly involved in execution phase of apoptosis	biological_process
+GO:0006924	activation-induced cell death of T cells	biological_process
+GO:0006925	inflammatory cell apoptotic process	biological_process
+GO:0006927	transformed cell apoptotic process	biological_process
+GO:0043066	negative regulation of apoptotic process	biological_process
+GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	biological_process
+GO:0008626	granzyme-mediated apoptotic signaling pathway	biological_process
+GO:0008627	intrinsic apoptotic signaling pathway in response to osmotic stress	biological_process
+GO:0008628	hormone-mediated apoptotic signaling pathway	biological_process
+GO:0008630	intrinsic apoptotic signaling pathway in response to DNA damage	biological_process
+GO:0008631	intrinsic apoptotic signaling pathway in response to oxidative stress	biological_process
+GO:0008635	activation of cysteine-type endopeptidase activity involved in apoptotic process by cytochrome c	biological_process
+GO:0008637	apoptotic mitochondrial changes	biological_process
+GO:0010656	negative regulation of muscle cell apoptotic process	biological_process
+GO:0010657	muscle cell apoptotic process	biological_process
+GO:0010658	striated muscle cell apoptotic process	biological_process
+GO:0010659	cardiac muscle cell apoptotic process	biological_process
+GO:0010660	regulation of muscle cell apoptotic process	biological_process
+GO:0010661	positive regulation of muscle cell apoptotic process	biological_process
+GO:0010662	regulation of striated muscle cell apoptotic process	biological_process
+GO:0010663	positive regulation of striated muscle cell apoptotic process	biological_process
+GO:0010664	negative regulation of striated muscle cell apoptotic process	biological_process
+GO:0010665	regulation of cardiac muscle cell apoptotic process	biological_process
+GO:0010666	positive regulation of cardiac muscle cell apoptotic process	biological_process
+GO:0010667	negative regulation of cardiac muscle cell apoptotic process	biological_process
+GO:0042981	regulation of apoptotic process	biological_process
+GO:0019050	suppression by virus of host apoptotic process	biological_process
+GO:0019051	induction by virus of host apoptotic process	biological_process
+GO:0030262	apoptotic nuclear changes	biological_process
+GO:0030263	apoptotic chromosome condensation	biological_process
+GO:0030264	nuclear fragmentation involved in apoptotic nuclear change	biological_process
+GO:0032976	release of matrix enzymes from mitochondria	biological_process
+GO:0033024	mast cell apoptotic process	biological_process
+GO:0033025	regulation of mast cell apoptotic process	biological_process
+GO:0033026	negative regulation of mast cell apoptotic process	biological_process
+GO:0033027	positive regulation of mast cell apoptotic process	biological_process
+GO:0033028	myeloid cell apoptotic process	biological_process
+GO:0033029	regulation of neutrophil apoptotic process	biological_process
+GO:0033030	negative regulation of neutrophil apoptotic process	biological_process
+GO:0033031	positive regulation of neutrophil apoptotic process	biological_process
+GO:0033032	regulation of myeloid cell apoptotic process	biological_process
+GO:0033033	negative regulation of myeloid cell apoptotic process	biological_process
+GO:0033034	positive regulation of myeloid cell apoptotic process	biological_process
+GO:0033668	negative regulation by symbiont of host apoptotic process	biological_process
+GO:0034349	glial cell apoptotic process	biological_process
+GO:0034350	regulation of glial cell apoptotic process	biological_process
+GO:0034351	negative regulation of glial cell apoptotic process	biological_process
+GO:0034352	positive regulation of glial cell apoptotic process	biological_process
+GO:0034390	smooth muscle cell apoptotic process	biological_process
+GO:0034391	regulation of smooth muscle cell apoptotic process	biological_process
+GO:0034392	negative regulation of smooth muscle cell apoptotic process	biological_process
+GO:0034393	positive regulation of smooth muscle cell apoptotic process	biological_process
+GO:0036462	TRAIL-activated apoptotic signaling pathway	biological_process
+GO:0036480	neuron intrinsic apoptotic signaling pathway in response to oxidative stress	biological_process
+GO:0036481	intrinsic apoptotic signaling pathway in response to hydrogen peroxide	biological_process
+GO:0036482	neuron intrinsic apoptotic signaling pathway in response to hydrogen peroxide	biological_process
+GO:0036483	neuron intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	biological_process
+GO:0039526	modulation by virus of host apoptotic process	biological_process
+GO:0039650	suppression by virus of host cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:0039651	induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:0042771	intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	biological_process
+GO:0043065	positive regulation of apoptotic process	biological_process
+GO:0043154	negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:0043276	anoikis	biological_process
+GO:0043280	positive regulation of cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:0043281	regulation of cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:0043523	regulation of neuron apoptotic process	biological_process
+GO:0043524	negative regulation of neuron apoptotic process	biological_process
+GO:0043525	positive regulation of neuron apoptotic process	biological_process
+GO:0043653	mitochondrial fragmentation involved in apoptotic process	biological_process
+GO:0044346	fibroblast apoptotic process	biological_process
+GO:0044532	modulation of apoptotic process in other organism	biological_process
+GO:0044533	positive regulation of apoptotic process in other organism	biological_process
+GO:0045476	nurse cell apoptotic process	biological_process
+GO:0045477	regulation of nurse cell apoptotic process	biological_process
+GO:0045849	negative regulation of nurse cell apoptotic process	biological_process
+GO:0045850	positive regulation of nurse cell apoptotic process	biological_process
+GO:0051402	neuron apoptotic process	biological_process
+GO:0052150	modulation by symbiont of host apoptotic process	biological_process
+GO:0052151	positive regulation by symbiont of host apoptotic process	biological_process
+GO:0052433	modulation by organism of apoptotic process in other organism involved in symbiotic interaction	biological_process
+GO:0052501	positive regulation by organism of apoptotic process in other organism involved in symbiotic interaction	biological_process
+GO:0060057	apoptotic process involved in mammary gland involution	biological_process
+GO:0060058	positive regulation of apoptotic process involved in mammary gland involution	biological_process
+GO:0060139	positive regulation of apoptotic process by virus	biological_process
+GO:0060561	apoptotic process involved in morphogenesis	biological_process
+GO:0060609	apoptotic process involved in tube lumen cavitation	biological_process
+GO:0060663	apoptotic process involved in salivary gland cavitation	biological_process
+GO:0060785	regulation of apoptosis involved in tissue homeostasis	biological_process
+GO:0060885	clearance of cells from fusion plate by apoptotic process	biological_process
+GO:0061295	regulation of mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:0061296	negative regulation of mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:0061297	positive regulation of mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:0061364	apoptotic process involved in luteolysis	biological_process
+GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	biological_process
+GO:0070227	lymphocyte apoptotic process	biological_process
+GO:0070228	regulation of lymphocyte apoptotic process	biological_process
+GO:0070229	negative regulation of lymphocyte apoptotic process	biological_process
+GO:0070230	positive regulation of lymphocyte apoptotic process	biological_process
+GO:0070231	T cell apoptotic process	biological_process
+GO:0070232	regulation of T cell apoptotic process	biological_process
+GO:0070233	negative regulation of T cell apoptotic process	biological_process
+GO:0070234	positive regulation of T cell apoptotic process	biological_process
+GO:0070235	regulation of activation-induced cell death of T cells	biological_process
+GO:0070236	negative regulation of activation-induced cell death of T cells	biological_process
+GO:0070237	positive regulation of activation-induced cell death of T cells	biological_process
+GO:0070238	activated T cell autonomous cell death	biological_process
+GO:0070239	regulation of activated T cell autonomous cell death	biological_process
+GO:0070240	negative regulation of activated T cell autonomous cell death	biological_process
+GO:0070241	positive regulation of activated T cell autonomous cell death	biological_process
+GO:0070242	thymocyte apoptotic process	biological_process
+GO:0070243	regulation of thymocyte apoptotic process	biological_process
+GO:0070244	negative regulation of thymocyte apoptotic process	biological_process
+GO:0070245	positive regulation of thymocyte apoptotic process	biological_process
+GO:0070246	natural killer cell apoptotic process	biological_process
+GO:0070247	regulation of natural killer cell apoptotic process	biological_process
+GO:0070248	negative regulation of natural killer cell apoptotic process	biological_process
+GO:0070249	positive regulation of natural killer cell apoptotic process	biological_process
+GO:0070782	phosphatidylserine exposure on apoptotic cell surface	biological_process
+GO:0071550	death-inducing signaling complex assembly	biological_process
+GO:0071839	apoptotic process in bone marrow	biological_process
+GO:0071865	regulation of apoptotic process in bone marrow	biological_process
+GO:0071866	negative regulation of apoptotic process in bone marrow	biological_process
+GO:0071887	leukocyte apoptotic process	biological_process
+GO:0071888	macrophage apoptotic process	biological_process
+GO:0071948	activation-induced B cell apoptotic process	biological_process
+GO:0072039	regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:0072040	negative regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:0072041	positive regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:0072304	regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:0072305	negative regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:0072306	positive regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:0072332	intrinsic apoptotic signaling pathway by p53 class mediator	biological_process
+GO:0072577	endothelial cell apoptotic process	biological_process
+GO:0090199	regulation of release of cytochrome c from mitochondria	biological_process
+GO:0090200	positive regulation of release of cytochrome c from mitochondria	biological_process
+GO:0090201	negative regulation of release of cytochrome c from mitochondria	biological_process
+GO:0097048	dendritic cell apoptotic process	biological_process
+GO:0097049	motor neuron apoptotic process	biological_process
+GO:0097050	type B pancreatic cell apoptotic process	biological_process
+GO:0097152	mesenchymal cell apoptotic process	biological_process
+GO:0097190	apoptotic signaling pathway	biological_process
+GO:0097191	extrinsic apoptotic signaling pathway	biological_process
+GO:0097192	extrinsic apoptotic signaling pathway in absence of ligand	biological_process
+GO:0097193	intrinsic apoptotic signaling pathway	biological_process
+GO:0097194	execution phase of apoptosis	biological_process
+GO:0097252	oligodendrocyte apoptotic process	biological_process
+GO:0097283	keratinocyte apoptotic process	biological_process
+GO:0097284	hepatocyte apoptotic process	biological_process
+GO:0097285	cell-type specific apoptotic process	biological_process
+GO:0097296	activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway	biological_process
+GO:0097297	activation of cysteine-type endopeptidase activity involved in execution phase of apoptosis	biological_process
+GO:0097314	apoptosome assembly	biological_process
+GO:0097345	mitochondrial outer membrane permeabilization	biological_process
+GO:0097473	retinal rod cell apoptotic process	biological_process
+GO:0097474	retinal cone cell apoptotic process	biological_process
+GO:0100069	negative regulation of neuron apoptotic process by transcription from RNA polymerase II promoter	biological_process
+GO:1900117	regulation of execution phase of apoptosis	biological_process
+GO:1900118	negative regulation of execution phase of apoptosis	biological_process
+GO:1900119	positive regulation of execution phase of apoptosis	biological_process
+GO:1900141	regulation of oligodendrocyte apoptotic process	biological_process
+GO:1900142	negative regulation of oligodendrocyte apoptotic process	biological_process
+GO:1900143	positive regulation of oligodendrocyte apoptotic process	biological_process
+GO:1900200	mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900204	apoptotic process involved in metanephric collecting duct development	biological_process
+GO:1900205	apoptotic process involved in metanephric nephron tubule development	biological_process
+GO:1900211	regulation of mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900212	negative regulation of mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900213	positive regulation of mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900214	regulation of apoptotic process involved in metanephric collecting duct development	biological_process
+GO:1900215	negative regulation of apoptotic process involved in metanephric collecting duct development	biological_process
+GO:1900216	positive regulation of apoptotic process involved in metanephric collecting duct development	biological_process
+GO:1900217	regulation of apoptotic process involved in metanephric nephron tubule development	biological_process
+GO:1900218	negative regulation of apoptotic process involved in metanephric nephron tubule development	biological_process
+GO:1900219	positive regulation of apoptotic process involved in metanephric nephron tubule development	biological_process
+GO:1900739	regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	biological_process
+GO:1900740	positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	biological_process
+GO:1901025	ripoptosome assembly involved in extrinsic apoptotic signaling pathway	biological_process
+GO:1901028	regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	biological_process
+GO:1901029	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	biological_process
+GO:1901030	positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	biological_process
+GO:1901145	mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:1901146	mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:1901147	mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:1901692	regulation of compound eye retinal cell apoptotic process	biological_process
+GO:1901693	negative regulation of compound eye retinal cell apoptotic process	biological_process
+GO:1901694	positive regulation of compound eye retinal cell apoptotic process	biological_process
+GO:1902041	regulation of extrinsic apoptotic signaling pathway via death domain receptors	biological_process
+GO:1902042	negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	biological_process
+GO:1902043	positive regulation of extrinsic apoptotic signaling pathway via death domain receptors	biological_process
+GO:1902108	regulation of mitochondrial membrane permeability involved in apoptotic process	biological_process
+GO:1902109	negative regulation of mitochondrial membrane permeability involved in apoptotic process	biological_process
+GO:1902110	positive regulation of mitochondrial membrane permeability involved in apoptotic process	biological_process
+GO:1902165	regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	biological_process
+GO:1902166	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	biological_process
+GO:1902167	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	biological_process
+GO:1902172	regulation of keratinocyte apoptotic process	biological_process
+GO:1902173	negative regulation of keratinocyte apoptotic process	biological_process
+GO:1902174	positive regulation of keratinocyte apoptotic process	biological_process
+GO:1902175	regulation of oxidative stress-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1902176	negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1902177	positive regulation of oxidative stress-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1902178	fibroblast growth factor receptor apoptotic signaling pathway	biological_process
+GO:1902217	erythrocyte apoptotic process	biological_process
+GO:1902218	regulation of intrinsic apoptotic signaling pathway in response to osmotic stress	biological_process
+GO:1902219	negative regulation of intrinsic apoptotic signaling pathway in response to osmotic stress	biological_process
+GO:1902220	positive regulation of intrinsic apoptotic signaling pathway in response to osmotic stress	biological_process
+GO:1902229	regulation of intrinsic apoptotic signaling pathway in response to DNA damage	biological_process
+GO:1902230	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage	biological_process
+GO:1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage	biological_process
+GO:1902235	regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1902236	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1902237	positive regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1902238	regulation of intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator	biological_process
+GO:1902239	negative regulation of intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator	biological_process
+GO:1902240	positive regulation of intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator	biological_process
+GO:1902250	regulation of erythrocyte apoptotic process	biological_process
+GO:1902251	negative regulation of erythrocyte apoptotic process	biological_process
+GO:1902252	positive regulation of erythrocyte apoptotic process	biological_process
+GO:1902253	regulation of intrinsic apoptotic signaling pathway by p53 class mediator	biological_process
+GO:1902254	negative regulation of intrinsic apoptotic signaling pathway by p53 class mediator	biological_process
+GO:1902255	positive regulation of intrinsic apoptotic signaling pathway by p53 class mediator	biological_process
+GO:1902256	regulation of apoptotic process involved in outflow tract morphogenesis	biological_process
+GO:1902257	negative regulation of apoptotic process involved in outflow tract morphogenesis	biological_process
+GO:1902258	positive regulation of apoptotic process involved in outflow tract morphogenesis	biological_process
+GO:1902262	apoptotic process involved in patterning of blood vessels	biological_process
+GO:1902263	apoptotic process involved in embryonic digit morphogenesis	biological_process
+GO:1902337	regulation of apoptotic process involved in morphogenesis	biological_process
+GO:1902338	negative regulation of apoptotic process involved in morphogenesis	biological_process
+GO:1902339	positive regulation of apoptotic process involved in morphogenesis	biological_process
+GO:1902362	melanocyte apoptotic process	biological_process
+GO:1902482	regulatory T cell apoptotic process	biological_process
+GO:1902483	cytotoxic T cell apoptotic process	biological_process
+GO:1902484	Sertoli cell apoptotic process	biological_process
+GO:1902488	cholangiocyte apoptotic process	biological_process
+GO:1902489	hepatoblast apoptotic process	biological_process
+GO:1902510	regulation of apoptotic DNA fragmentation	biological_process
+GO:1902511	negative regulation of apoptotic DNA fragmentation	biological_process
+GO:1902512	positive regulation of apoptotic DNA fragmentation	biological_process
+GO:1902742	apoptotic process involved in development	biological_process
+GO:1903072	regulation of death-inducing signaling complex assembly	biological_process
+GO:1903073	negative regulation of death-inducing signaling complex assembly	biological_process
+GO:1903074	TRAIL death-inducing signaling complex assembly	biological_process
+GO:1903121	regulation of TRAIL-activated apoptotic signaling pathway	biological_process
+GO:1903122	negative regulation of TRAIL-activated apoptotic signaling pathway	biological_process
+GO:1903210	glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1903297	regulation of hypoxia-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1903298	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway	biological_process
+GO:1903376	regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903377	negative regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903378	positive regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903381	regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903382	negative regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903383	regulation of hydrogen peroxide-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903384	negative regulation of hydrogen peroxide-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903750	regulation of intrinsic apoptotic signaling pathway in response to hydrogen peroxide	biological_process
+GO:1903751	negative regulation of intrinsic apoptotic signaling pathway in response to hydrogen peroxide	biological_process
+GO:1903752	positive regulation of intrinsic apoptotic signaling pathway in response to hydrogen peroxide	biological_process
+GO:1903943	regulation of hepatocyte apoptotic process	biological_process
+GO:1903944	negative regulation of hepatocyte apoptotic process	biological_process
+GO:1903945	positive regulation of hepatocyte apoptotic process	biological_process
+GO:1903984	positive regulation of TRAIL-activated apoptotic signaling pathway	biological_process
+GO:1904019	epithelial cell apoptotic process	biological_process
+GO:1904035	regulation of epithelial cell apoptotic process	biological_process
+GO:1904036	negative regulation of epithelial cell apoptotic process	biological_process
+GO:1904037	positive regulation of epithelial cell apoptotic process	biological_process
+GO:1904192	regulation of cholangiocyte apoptotic process	biological_process
+GO:1904193	negative regulation of cholangiocyte apoptotic process	biological_process
+GO:1904194	positive regulation of cholangiocyte apoptotic process	biological_process
+GO:1904516	myofibroblast cell apoptotic process	biological_process
+GO:1904520	regulation of myofibroblast cell apoptotic process	biological_process
+GO:1904521	negative regulation of myofibroblast cell apoptotic process	biological_process
+GO:1904522	positive regulation of myofibroblast cell apoptotic process	biological_process
+GO:1904606	fat cell apoptotic process	biological_process
+GO:1904633	regulation of glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1904634	negative regulation of glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1904635	positive regulation of glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1904649	regulation of fat cell apoptotic process	biological_process
+GO:1904650	negative regulation of fat cell apoptotic process	biological_process
+GO:1904651	positive regulation of fat cell apoptotic process	biological_process
+GO:1990001	inhibition of cysteine-type endopeptidase activity involved in apoptotic process	biological_process
+GO:1990009	retinal cell apoptotic process	biological_process
+GO:1990010	compound eye retinal cell apoptotic process	biological_process
+GO:1990086	lens fiber cell apoptotic process	biological_process
+GO:1990117	B cell receptor apoptotic signaling pathway	biological_process
+GO:1990127	intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator	biological_process
+GO:1990134	epithelial cell apoptotic process involved in palatal shelf morphogenesis	biological_process
+GO:1990144	intrinsic apoptotic signaling pathway in response to hypoxia	biological_process
+GO:1990442	intrinsic apoptotic signaling pathway in response to nitrosative stress	biological_process
+GO:2000106	regulation of leukocyte apoptotic process	biological_process
+GO:2000107	negative regulation of leukocyte apoptotic process	biological_process
+GO:2000108	positive regulation of leukocyte apoptotic process	biological_process
+GO:2000109	regulation of macrophage apoptotic process	biological_process
+GO:2000110	negative regulation of macrophage apoptotic process	biological_process
+GO:2000111	positive regulation of macrophage apoptotic process	biological_process
+GO:2000209	regulation of anoikis	biological_process
+GO:2000210	positive regulation of anoikis	biological_process
+GO:2000269	regulation of fibroblast apoptotic process	biological_process
+GO:2000270	negative regulation of fibroblast apoptotic process	biological_process
+GO:2000271	positive regulation of fibroblast apoptotic process	biological_process
+GO:2000351	regulation of endothelial cell apoptotic process	biological_process
+GO:2000352	negative regulation of endothelial cell apoptotic process	biological_process
+GO:2000353	positive regulation of endothelial cell apoptotic process	biological_process
+GO:2000668	regulation of dendritic cell apoptotic process	biological_process
+GO:2000669	negative regulation of dendritic cell apoptotic process	biological_process
+GO:2000670	positive regulation of dendritic cell apoptotic process	biological_process
+GO:2000671	regulation of motor neuron apoptotic process	biological_process
+GO:2000672	negative regulation of motor neuron apoptotic process	biological_process
+GO:2000673	positive regulation of motor neuron apoptotic process	biological_process
+GO:2000674	regulation of type B pancreatic cell apoptotic process	biological_process
+GO:2000675	negative regulation of type B pancreatic cell apoptotic process	biological_process
+GO:2000676	positive regulation of type B pancreatic cell apoptotic process	biological_process
+GO:2000811	negative regulation of anoikis	biological_process
+GO:2001053	regulation of mesenchymal cell apoptotic process	biological_process
+GO:2001054	negative regulation of mesenchymal cell apoptotic process	biological_process
+GO:2001055	positive regulation of mesenchymal cell apoptotic process	biological_process
+GO:2001233	regulation of apoptotic signaling pathway	biological_process
+GO:2001234	negative regulation of apoptotic signaling pathway	biological_process
+GO:2001235	positive regulation of apoptotic signaling pathway	biological_process
+GO:2001236	regulation of extrinsic apoptotic signaling pathway	biological_process
+GO:2001237	negative regulation of extrinsic apoptotic signaling pathway	biological_process
+GO:2001238	positive regulation of extrinsic apoptotic signaling pathway	biological_process
+GO:2001239	regulation of extrinsic apoptotic signaling pathway in absence of ligand	biological_process
+GO:2001240	negative regulation of extrinsic apoptotic signaling pathway in absence of ligand	biological_process
+GO:2001241	positive regulation of extrinsic apoptotic signaling pathway in absence of ligand	biological_process
+GO:2001242	regulation of intrinsic apoptotic signaling pathway	biological_process
+GO:2001243	negative regulation of intrinsic apoptotic signaling pathway	biological_process
+GO:2001244	positive regulation of intrinsic apoptotic signaling pathway	biological_process
+GO:2001267	regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway	biological_process
+GO:2001268	negative regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway	biological_process
+GO:2001269	positive regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway	biological_process
+GO:2001270	regulation of cysteine-type endopeptidase activity involved in execution phase of apoptosis	biological_process
+GO:2001271	negative regulation of cysteine-type endopeptidase activity involved in execution phase of apoptosis	biological_process
+GO:2001272	positive regulation of cysteine-type endopeptidase activity involved in execution phase of apoptosis	biological_process

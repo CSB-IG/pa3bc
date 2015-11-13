@@ -1,0 +1,200 @@
+GO:0001781	neutrophil apoptotic process	biological_process
+GO:0001783	B cell apoptotic process	biological_process
+GO:0002342	central B cell deletion	biological_process
+GO:0002454	peripheral B cell deletion	biological_process
+GO:0002516	B cell deletion	biological_process
+GO:0002867	regulation of B cell deletion	biological_process
+GO:0002868	negative regulation of B cell deletion	biological_process
+GO:0002869	positive regulation of B cell deletion	biological_process
+GO:0002898	regulation of central B cell deletion	biological_process
+GO:0002899	negative regulation of central B cell deletion	biological_process
+GO:0002900	positive regulation of central B cell deletion	biological_process
+GO:0002901	mature B cell apoptotic process	biological_process
+GO:0002902	regulation of B cell apoptotic process	biological_process
+GO:0002903	negative regulation of B cell apoptotic process	biological_process
+GO:0002904	positive regulation of B cell apoptotic process	biological_process
+GO:0002905	regulation of mature B cell apoptotic process	biological_process
+GO:0002906	negative regulation of mature B cell apoptotic process	biological_process
+GO:0002907	positive regulation of mature B cell apoptotic process	biological_process
+GO:0002908	regulation of peripheral B cell deletion	biological_process
+GO:0002909	negative regulation of peripheral B cell deletion	biological_process
+GO:0002910	positive regulation of peripheral B cell deletion	biological_process
+GO:0006924	activation-induced cell death of T cells	biological_process
+GO:0006925	inflammatory cell apoptotic process	biological_process
+GO:0006927	transformed cell apoptotic process	biological_process
+GO:0010656	negative regulation of muscle cell apoptotic process	biological_process
+GO:0010657	muscle cell apoptotic process	biological_process
+GO:0010658	striated muscle cell apoptotic process	biological_process
+GO:0010659	cardiac muscle cell apoptotic process	biological_process
+GO:0010660	regulation of muscle cell apoptotic process	biological_process
+GO:0010661	positive regulation of muscle cell apoptotic process	biological_process
+GO:0010662	regulation of striated muscle cell apoptotic process	biological_process
+GO:0010663	positive regulation of striated muscle cell apoptotic process	biological_process
+GO:0010664	negative regulation of striated muscle cell apoptotic process	biological_process
+GO:0010665	regulation of cardiac muscle cell apoptotic process	biological_process
+GO:0010666	positive regulation of cardiac muscle cell apoptotic process	biological_process
+GO:0010667	negative regulation of cardiac muscle cell apoptotic process	biological_process
+GO:0033024	mast cell apoptotic process	biological_process
+GO:0033025	regulation of mast cell apoptotic process	biological_process
+GO:0033026	negative regulation of mast cell apoptotic process	biological_process
+GO:0033027	positive regulation of mast cell apoptotic process	biological_process
+GO:0033028	myeloid cell apoptotic process	biological_process
+GO:0033029	regulation of neutrophil apoptotic process	biological_process
+GO:0033030	negative regulation of neutrophil apoptotic process	biological_process
+GO:0033031	positive regulation of neutrophil apoptotic process	biological_process
+GO:0033032	regulation of myeloid cell apoptotic process	biological_process
+GO:0033033	negative regulation of myeloid cell apoptotic process	biological_process
+GO:0033034	positive regulation of myeloid cell apoptotic process	biological_process
+GO:0034349	glial cell apoptotic process	biological_process
+GO:0034350	regulation of glial cell apoptotic process	biological_process
+GO:0034351	negative regulation of glial cell apoptotic process	biological_process
+GO:0034352	positive regulation of glial cell apoptotic process	biological_process
+GO:0034390	smooth muscle cell apoptotic process	biological_process
+GO:0034391	regulation of smooth muscle cell apoptotic process	biological_process
+GO:0034392	negative regulation of smooth muscle cell apoptotic process	biological_process
+GO:0034393	positive regulation of smooth muscle cell apoptotic process	biological_process
+GO:0036480	neuron intrinsic apoptotic signaling pathway in response to oxidative stress	biological_process
+GO:0036482	neuron intrinsic apoptotic signaling pathway in response to hydrogen peroxide	biological_process
+GO:0036483	neuron intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	biological_process
+GO:0043523	regulation of neuron apoptotic process	biological_process
+GO:0043524	negative regulation of neuron apoptotic process	biological_process
+GO:0043525	positive regulation of neuron apoptotic process	biological_process
+GO:0044346	fibroblast apoptotic process	biological_process
+GO:0045476	nurse cell apoptotic process	biological_process
+GO:0045477	regulation of nurse cell apoptotic process	biological_process
+GO:0045849	negative regulation of nurse cell apoptotic process	biological_process
+GO:0045850	positive regulation of nurse cell apoptotic process	biological_process
+GO:0051402	neuron apoptotic process	biological_process
+GO:0061295	regulation of mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:0061296	negative regulation of mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:0061297	positive regulation of mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:0070227	lymphocyte apoptotic process	biological_process
+GO:0070228	regulation of lymphocyte apoptotic process	biological_process
+GO:0070229	negative regulation of lymphocyte apoptotic process	biological_process
+GO:0070230	positive regulation of lymphocyte apoptotic process	biological_process
+GO:0070231	T cell apoptotic process	biological_process
+GO:0070232	regulation of T cell apoptotic process	biological_process
+GO:0070233	negative regulation of T cell apoptotic process	biological_process
+GO:0070234	positive regulation of T cell apoptotic process	biological_process
+GO:0070235	regulation of activation-induced cell death of T cells	biological_process
+GO:0070236	negative regulation of activation-induced cell death of T cells	biological_process
+GO:0070237	positive regulation of activation-induced cell death of T cells	biological_process
+GO:0070238	activated T cell autonomous cell death	biological_process
+GO:0070239	regulation of activated T cell autonomous cell death	biological_process
+GO:0070240	negative regulation of activated T cell autonomous cell death	biological_process
+GO:0070241	positive regulation of activated T cell autonomous cell death	biological_process
+GO:0070242	thymocyte apoptotic process	biological_process
+GO:0070243	regulation of thymocyte apoptotic process	biological_process
+GO:0070244	negative regulation of thymocyte apoptotic process	biological_process
+GO:0070245	positive regulation of thymocyte apoptotic process	biological_process
+GO:0070246	natural killer cell apoptotic process	biological_process
+GO:0070247	regulation of natural killer cell apoptotic process	biological_process
+GO:0070248	negative regulation of natural killer cell apoptotic process	biological_process
+GO:0070249	positive regulation of natural killer cell apoptotic process	biological_process
+GO:0071839	apoptotic process in bone marrow	biological_process
+GO:0071865	regulation of apoptotic process in bone marrow	biological_process
+GO:0071866	negative regulation of apoptotic process in bone marrow	biological_process
+GO:0071887	leukocyte apoptotic process	biological_process
+GO:0071888	macrophage apoptotic process	biological_process
+GO:0071948	activation-induced B cell apoptotic process	biological_process
+GO:0072039	regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:0072040	negative regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:0072041	positive regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:0072304	regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:0072305	negative regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:0072306	positive regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:0072577	endothelial cell apoptotic process	biological_process
+GO:0097048	dendritic cell apoptotic process	biological_process
+GO:0097049	motor neuron apoptotic process	biological_process
+GO:0097050	type B pancreatic cell apoptotic process	biological_process
+GO:0097152	mesenchymal cell apoptotic process	biological_process
+GO:0097252	oligodendrocyte apoptotic process	biological_process
+GO:0097283	keratinocyte apoptotic process	biological_process
+GO:0097284	hepatocyte apoptotic process	biological_process
+GO:0097473	retinal rod cell apoptotic process	biological_process
+GO:0097474	retinal cone cell apoptotic process	biological_process
+GO:0100069	negative regulation of neuron apoptotic process by transcription from RNA polymerase II promoter	biological_process
+GO:1900141	regulation of oligodendrocyte apoptotic process	biological_process
+GO:1900142	negative regulation of oligodendrocyte apoptotic process	biological_process
+GO:1900143	positive regulation of oligodendrocyte apoptotic process	biological_process
+GO:1900200	mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900211	regulation of mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900212	negative regulation of mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1900213	positive regulation of mesenchymal cell apoptotic process involved in metanephros development	biological_process
+GO:1901145	mesenchymal cell apoptotic process involved in nephron morphogenesis	biological_process
+GO:1901146	mesenchymal cell apoptotic process involved in mesonephric nephron morphogenesis	biological_process
+GO:1901147	mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process
+GO:1901692	regulation of compound eye retinal cell apoptotic process	biological_process
+GO:1901693	negative regulation of compound eye retinal cell apoptotic process	biological_process
+GO:1901694	positive regulation of compound eye retinal cell apoptotic process	biological_process
+GO:1902172	regulation of keratinocyte apoptotic process	biological_process
+GO:1902173	negative regulation of keratinocyte apoptotic process	biological_process
+GO:1902174	positive regulation of keratinocyte apoptotic process	biological_process
+GO:1902217	erythrocyte apoptotic process	biological_process
+GO:1902250	regulation of erythrocyte apoptotic process	biological_process
+GO:1902251	negative regulation of erythrocyte apoptotic process	biological_process
+GO:1902252	positive regulation of erythrocyte apoptotic process	biological_process
+GO:1902362	melanocyte apoptotic process	biological_process
+GO:1902482	regulatory T cell apoptotic process	biological_process
+GO:1902483	cytotoxic T cell apoptotic process	biological_process
+GO:1902484	Sertoli cell apoptotic process	biological_process
+GO:1902488	cholangiocyte apoptotic process	biological_process
+GO:1902489	hepatoblast apoptotic process	biological_process
+GO:1903210	glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1903376	regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903377	negative regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903378	positive regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903381	regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903382	negative regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903383	regulation of hydrogen peroxide-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903384	negative regulation of hydrogen peroxide-induced neuron intrinsic apoptotic signaling pathway	biological_process
+GO:1903943	regulation of hepatocyte apoptotic process	biological_process
+GO:1903944	negative regulation of hepatocyte apoptotic process	biological_process
+GO:1903945	positive regulation of hepatocyte apoptotic process	biological_process
+GO:1904019	epithelial cell apoptotic process	biological_process
+GO:1904035	regulation of epithelial cell apoptotic process	biological_process
+GO:1904036	negative regulation of epithelial cell apoptotic process	biological_process
+GO:1904037	positive regulation of epithelial cell apoptotic process	biological_process
+GO:1904192	regulation of cholangiocyte apoptotic process	biological_process
+GO:1904193	negative regulation of cholangiocyte apoptotic process	biological_process
+GO:1904194	positive regulation of cholangiocyte apoptotic process	biological_process
+GO:1904516	myofibroblast cell apoptotic process	biological_process
+GO:1904520	regulation of myofibroblast cell apoptotic process	biological_process
+GO:1904521	negative regulation of myofibroblast cell apoptotic process	biological_process
+GO:1904522	positive regulation of myofibroblast cell apoptotic process	biological_process
+GO:1904606	fat cell apoptotic process	biological_process
+GO:1904633	regulation of glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1904634	negative regulation of glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1904635	positive regulation of glomerular visceral epithelial cell apoptotic process	biological_process
+GO:1904649	regulation of fat cell apoptotic process	biological_process
+GO:1904650	negative regulation of fat cell apoptotic process	biological_process
+GO:1904651	positive regulation of fat cell apoptotic process	biological_process
+GO:1990009	retinal cell apoptotic process	biological_process
+GO:1990010	compound eye retinal cell apoptotic process	biological_process
+GO:1990086	lens fiber cell apoptotic process	biological_process
+GO:1990117	B cell receptor apoptotic signaling pathway	biological_process
+GO:1990134	epithelial cell apoptotic process involved in palatal shelf morphogenesis	biological_process
+GO:2000106	regulation of leukocyte apoptotic process	biological_process
+GO:2000107	negative regulation of leukocyte apoptotic process	biological_process
+GO:2000108	positive regulation of leukocyte apoptotic process	biological_process
+GO:2000109	regulation of macrophage apoptotic process	biological_process
+GO:2000110	negative regulation of macrophage apoptotic process	biological_process
+GO:2000111	positive regulation of macrophage apoptotic process	biological_process
+GO:2000269	regulation of fibroblast apoptotic process	biological_process
+GO:2000270	negative regulation of fibroblast apoptotic process	biological_process
+GO:2000271	positive regulation of fibroblast apoptotic process	biological_process
+GO:2000351	regulation of endothelial cell apoptotic process	biological_process
+GO:2000352	negative regulation of endothelial cell apoptotic process	biological_process
+GO:2000353	positive regulation of endothelial cell apoptotic process	biological_process
+GO:2000668	regulation of dendritic cell apoptotic process	biological_process
+GO:2000669	negative regulation of dendritic cell apoptotic process	biological_process
+GO:2000670	positive regulation of dendritic cell apoptotic process	biological_process
+GO:2000671	regulation of motor neuron apoptotic process	biological_process
+GO:2000672	negative regulation of motor neuron apoptotic process	biological_process
+GO:2000673	positive regulation of motor neuron apoptotic process	biological_process
+GO:2000674	regulation of type B pancreatic cell apoptotic process	biological_process
+GO:2000675	negative regulation of type B pancreatic cell apoptotic process	biological_process
+GO:2000676	positive regulation of type B pancreatic cell apoptotic process	biological_process
+GO:2001053	regulation of mesenchymal cell apoptotic process	biological_process
+GO:2001054	negative regulation of mesenchymal cell apoptotic process	biological_process
+GO:2001055	positive regulation of mesenchymal cell apoptotic process	biological_process
