@@ -7,10 +7,11 @@
 ################################################################################
 
 # Load Gene Ontology DB, remove genesets with no GO identifier
+# "con" can be changed to get the latest GO database at baderlab.org/EM_Genesets 
 con <- "http://download.baderlab.org/EM_Genesets/March_24_2015/Human/symbol/Human_GOBP_AllPathways_no_GO_iea_March_24_2015_symbol.gmt"
 no_col <- max(count.fields(con, sep="\t"))-1
 GODB <- read.delim(con, col.names = 1:no_col, header = F, fill = T)
-GODB <- GODB[2962:15008,]
+GODB <- GODB[2926:15008,] #Remove not GO genesets (Version specific)
 
 # Modify labels to remove white spaces
 labels <- as.character(GODB[,1])
