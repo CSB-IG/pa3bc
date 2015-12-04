@@ -21,6 +21,10 @@ cts.apop <- read.table(file = "GO.cell-type specific apoptotic process.txt",
 # Remove CTSA GO ids
 just_apop <- apop[!rownames(apop) %in% rownames(cts.apop), ]
 
+# Write pathways of apoptosis WITHOUT CTS apoptosis TXT file
+write.table(x = just_apop, file = "GO.apoptotic_process_WITHOUT_ctsapop.txt",
+            sep = "\t", row.names = T, col.names = F)
+
 # Merge resulting matrices
 apop_autop <- bind_rows(just_apop, autop)
 
