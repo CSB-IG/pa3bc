@@ -38,6 +38,6 @@ samples <- colnames(exp.matrix)
 GOg_exp_mat <- rbind(samples,GOg_exp_mat)
 rownames(GOg_exp_mat)[1] <- c("NAME")
 
-# Write expression matrix to TXT file
+# Write expression matrix to TXT file - for use in PATHIFIER
 write.table(x= GOg_exp_mat, file = "PATHIFIER_matriz_de_expresion_reducida.txt",
             sep = "\t", row.names = TRUE, col.names = FALSE)
