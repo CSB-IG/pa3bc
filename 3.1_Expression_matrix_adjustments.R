@@ -1,6 +1,6 @@
 ################################################################################
 # Cutoff expression matrix to annotated gene symbols and give format for use
-# in ARACNE and PATHIFIER
+# in ARACNE, PATHIFIER and PAM50 analyses
 # Author: Miguel Angel Garcia-Campos - https://github.com/AngelCampos
 ################################################################################
 
@@ -15,12 +15,11 @@ all_genes <- read.delim(file= "probesets.txt", header = F, sep = "\t")
 all_genes <- as.matrix(all_genes)
 ALLG_emat <- exp.matrix[all_genes,]
 
-
-# Write expression matrix to TXT file (FOR LATER USE IN ARACNE)
+# Write expression matrix to TXT file
 write.table(x = ALLG_emat, file = "ARACNE_matriz_de_expresion_reducida.txt",
             sep = "\t", row.names = TRUE, col.names = NA)
 
-## Cutoff expression matrix to genes in GO genesets
+## Cutoff expression matrix to genes in GO genesets#############################
 GO_genes <- read.delim(file= "genesets_apop_autop.txt", header = F, sep = "\t", 
            row.names = 1)
 genes <- as.matrix(GO_genes[,3:ncol(GO_genes)])
@@ -41,3 +40,13 @@ rownames(GOg_exp_mat)[1] <- c("NAME")
 # Write expression matrix to TXT file - for use in PATHIFIER
 write.table(x= GOg_exp_mat, file = "PATHIFIER_matriz_de_expresion_reducida.txt",
             sep = "\t", row.names = TRUE, col.names = FALSE)
+
+## Cutoff expression matrix to genes in PAM50###################################
+pam50_genes <- as.matrix(read.delim("pam50_genes.txt", header = F))
+pam50_genes <- unique(as.character(pam50_genes))
+pam50_expm <- as.data.frame(exp.matrix)[pam50_genes,]
+pam50_expm <- na.omit(pam50_expm)
+
+#Write to TXT file
+write.table(x = pam50_expm, file = "PAM50_matriz_de_expresion_reducida.txt", 
+            sep = "\t", col.names = NA, quote = FALSE)
