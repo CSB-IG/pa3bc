@@ -41,7 +41,7 @@ rownames(GOg_exp_mat)[1] <- c("NAME")
 write.table(x= GOg_exp_mat, file = "PATHIFIER_matriz_de_expresion_reducida.txt",
             sep = "\t", row.names = TRUE, col.names = FALSE)
 
-## Cutoff expression matrix to genes in PAM50###################################
+## Cutoff expression matrix to genes in PAM50 ##################################
 pam50_genes <- as.matrix(read.delim("pam50_genes.txt", header = F))
 pam50_genes <- unique(as.character(pam50_genes))
 pam50_expm <- as.data.frame(exp.matrix)[pam50_genes,]
