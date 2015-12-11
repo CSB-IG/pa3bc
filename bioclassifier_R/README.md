@@ -1,0 +1,3 @@
+# Bioclassifier. PAM50 assignment
+
+This directory is a copy of the one proportionated by Parker et al. in https://genome.unc.edu/pubsup/breastGEO/PAM50.zip from the article: Parker, J. S., Mullins, M., Cheang, M. C. U., Leung, S., Voduc, D., Vickery, T., … Bernard, P. S. (2009). Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes. Journal of Clinical Oncology, 27(8), 1160–1167. http://doi.org/10.1200/JCO.2008.18.1370
