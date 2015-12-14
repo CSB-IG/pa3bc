@@ -1,6 +1,7 @@
 ################################################################################
 # ADJs to Square matrix
-# Based ond wonderful: Diana Drago https://github.com/dianadrago
+# Based on wonderful: Diana Drago https://github.com/dianadrago
+# Author: Miguel Angel Garcia-Campos - https://github.com/AngelCampos
 ################################################################################
 
 # Install/load packages
