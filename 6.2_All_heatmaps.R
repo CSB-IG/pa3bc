@@ -1,6 +1,6 @@
 ################################################################################
 ## Heatmaps for Pathifier results in R
-### Author: Angel García-Campos https://github.com/AngelCampos
+### Author: Angel Garcia-Campos https://github.com/AngelCampos
 #### Base by wonderful: Sebastian Raschka https://github.com/rasbt
 ################################################################################
 
@@ -49,23 +49,30 @@ row.cluster = hclust(row.distance, method = "ward.D2")
 col.distance = dist(t(PDSmatrix), method = "euclidean")
 col.cluster = hclust(col.distance, method = "ward.D2")
 
+# 5 Subgroups ##################################################################
+
+# Subgroup labeling
+mycl <- cutree(col.cluster, k= 6)
+mycl <-sub(2,1L,mycl); mycl <- sub(3,2L,mycl); mycl <- sub(4,3L,mycl)
+mycl <- sub(5,4L,mycl); mycl <- sub(6,5L,mycl); mycl <- as.integer(mycl)
+mycolhc <- rainbow(length(unique(mycl)), start=0.1, end=0.9)
+mycolhc <- mycolhc[as.vector(mycl)]
+
 ################################################################################
 # Batch clusters
 ################################################################################
 batch.number <- read.table(file = "batch_number.txt", header = T, row.names = 1)
-
-myBATCHhc <- as.integer(batch.number)
-myBATCHhc <- rainbow(length(unique(mycl)), start=0.1, end=0.9)
-myBATCHhc <- mycolhc[as.vector(mycl)] 
+batch.number <- as.integer(batch.number)
+myBATCHhc <- rainbow(length(unique(batch.number)), start=0.1, end=0.9)
+myBATCHhc <- myBATCHhc[as.vector(batch.number)] 
 
 ################################################################################
 # PAM50 subtype information
 ################################################################################
-
-subtype <- read.table(file = "PAM50subt_numeric.txt", header = T, row.names = 1)
-myPAM50 <- as.integer(subtype)
-myPAM50hc <- rainbow(length(unique(mycl)), start=0.1, end=0.9)
-myPAM50hc <- mycolhc[as.vector(mycl)] 
+subtype <- read.table(file = "subtypes_numeric.txt", header = T, row.names = 1)
+subtype <- as.integer(subtype)
+myPAM50hc <- rainbow(length(unique(subtype)), start=0.1, end=0.9)
+myPAM50hc <- myPAM50hc[as.vector(subtype)] 
 
 ################################################################################
 # Plotting the Heatmaps!! (where all colorful things happen...)
@@ -95,8 +102,8 @@ heatmap.2(PDSmatrix,
             rep("firebrick1", 819)),    # Autophagy pathways
           ## Color labeling rows
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15))    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )    
 # Legend for ColumnSide color labeling 
 par(lend = 1)           # square line ends for the color legend
@@ -104,7 +111,7 @@ legend("topright",      # location of the legend on the heatmap plot
        legend = c("Sanos", "Enfermos"), # category labels
        col = c("dodgerblue", "firebrick1"),  # color key
        lty= 1,          # line style
-       lwd = 5, unit    # line width
+       lwd = 5, cex = 3    # line width
 )
 dev.off()               # close the PNG device
 
@@ -115,7 +122,7 @@ png("sanos_enfermos_noHC.png", # Name of png file
     units = "px",         # px (Pixels = default), in (inches), cm or mm
     res = 300,            # 300 pixels per inch
     pointsize = 6)        # font size
-heatmap.2(PDSmatrix,
+heatmap.2(PDSmatrix,dendrogram = "none",
           main = "",  # heat map title
           density.info= "none",  # turns off density plot inside color legend
           trace= "none",         # turns off trace lines inside the heat map
@@ -129,8 +136,8 @@ heatmap.2(PDSmatrix,
             rep("dodgerblue", 61),    # categories, Apoptosis pathways
             rep("firebrick1", 819)),    # Autophagy pathways
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15))    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )    
 # Legend for ColumnSide color labeling 
 par(lend = 1)           # square line ends for the color legend
@@ -138,7 +145,7 @@ legend("topright",      # location of the legend on the heatmap plot
        legend = c("Sanos", "Enfermos"), # category labels
        col = c("dodgerblue", "firebrick1"),  # color key
        lty= 1,          # line style
-       lwd = 5, unit    # line width
+       lwd = 5, cex = 3    # line width
 )
 dev.off()               # close the PNG device
 
@@ -162,8 +169,8 @@ heatmap.2(PDSmatrix,
           keysize= 0.8,           # size of color key
           ColSideColors= myBATCHhc,
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15)),    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )    
 ## Legend for ColumnSide color labeling 
 par(lend = 1)           # square line ends for the color legend
@@ -171,7 +178,7 @@ legend("topright",      # location of the legend on the heatmap plot
        legend = c("1","2","3","4","5","6","7","8","9","10"), # category labels
        col = rainbow(length(unique(mycl)), start=0.1, end=0.9),  # color key
        lty= 1,          # line style
-       lwd = 5, unit    # line width
+       lwd = 5, cex = 2    # line width
 )
 dev.off()     
 
@@ -183,7 +190,7 @@ png("lotes_noHC.png", # Name of png file
     units = "px",         # px (Pixels = default), in (inches), cm or mm
     res = 300,            # 300 pixels per inch
     pointsize = 6)        # font size
-heatmap.2(PDSmatrix,
+heatmap.2(PDSmatrix, dendrogram = "none",
           main = "",  # heat map title
           density.info= "none",  # turns off density plot inside color legend
           trace= "none",         # turns off trace lines inside the heat map
@@ -196,8 +203,8 @@ heatmap.2(PDSmatrix,
           ## Color labeling columns (Opt. RowSideColors for rows)
           ColSideColors= myBATCHhc,
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15))    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )    
 ## Legend for ColumnSide color labeling 
 par(lend = 1)           # square line ends for the color legend
@@ -229,8 +236,8 @@ heatmap.2(PDSmatrix,
           keysize= 0.8,           # size of color key
           ColSideColors= myPAM50hc,
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15))    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )    
 ## Legend for ColumnSide color labeling 
 par(lend = 1)           # square line ends for the color legend
@@ -244,13 +251,13 @@ dev.off()               # close the PNG device
 
 ## PAM50 subtype NO-hierarchical clustering ####################################
 
-png("subtipos_PAM50.png", # Name of png file       
+png("subtipos_PAM50_noHC.png", # Name of png file       
     width = 7.5 * 500,      # Easier re-scaling X*500 = Y pixels
     height = 7.5 * 400,     # 6 x 400 = 2400 px
     units = "px",         # px (Pixels = default), in (inches), cm or mm
     res = 300,            # 300 pixels per inch
     pointsize = 6)        # font size
-heatmap.2(PDSmatrix,
+heatmap.2(PDSmatrix, dendrogram = "none",
           main = "Subtipos tumorales PAM50",  # heat map title
           density.info= "none",  # turns off density plot inside color legend
           trace= "none",         # turns off trace lines inside the heat map
@@ -262,8 +269,8 @@ heatmap.2(PDSmatrix,
           keysize= 0.8,           # size of color key
           ColSideColors= myPAM50hc,
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15))    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )    
 ## Legend for ColumnSide color labeling 
 par(lend = 1)           # square line ends for the color legend
@@ -275,17 +282,8 @@ legend("topright",      # location of the legend on the heatmap plot
 )
 dev.off()               # close the PNG device
 
-# 5 Subgroups ##################################################################
-
-# Subgroup labeling
-mycl <- cutree(col.cluster, k= 6)
-mycl <-sub(2,1L,mycl); mycl <- sub(3,2L,mycl); mycl <- sub(4,3L,mycl)
-mycl <- sub(5,4L,mycl); mycl <- sub(6,5L,mycl); mycl <- as.integer(mycl)
-mycolhc <- rainbow(length(unique(mycl)), start=0.1, end=0.9)
-mycolhc <- mycolhc[as.vector(mycl)]
-
 # Heatmap
-png(paste("Apop+Autop_Subgrupos.png", sep = ""), # Name of png file       
+png(paste("Subgrupos_5.png", sep = ""), # Name of png file       
       width = 7.5 * 500,      # Easier re-scaling X*500 = Y pixels
       height = 7.5 * 400,     # 6 x 400 = 2400 px
       units = "px",         # px (Pixels = default), in (inches), cm or mm
@@ -302,14 +300,14 @@ heatmap.2(PDSmatrix,
           keysize= 0.8,           # size of color key
           ColSideColors= mycolhc,
           RowSideColors= c(           # Grouping col-samples into two different
-            rep("darkorange1", 81),    # categories, Samples 1-61: blue
-            rep("yellow1", 15))    # Samples 62-880
+            rep("slateblue", 81),    # categories, Samples 1-61: blue
+            rep("magenta", 15))    # Samples 62-880
 )
 par(lend = 1)           # square line ends for the color legend
 legend("topright",      # location of the legend on the heatmap plot
-       legend = c(as.character(1:5)), # category labels
-       col = unique(mycolhc),  # color key
+       legend = c("SG0","SG1","SG2","SG3","SG4"), # category labels
+       col = unique(mycolhc)[c(1,4,5,3,2)],  # color key
        lty= 1,          # line style
-       lwd = 5, unit    # line width
+       lwd = 5, cex = 2    # line width
 )
 dev.off()               # close the PNG device

@@ -39,7 +39,7 @@ rownames(GOg_exp_mat)[1] <- c("NAME")
 
 # Write expression matrix to TXT file - for use in PATHIFIER
 write.table(x= GOg_exp_mat, file = "PATHIFIER_matriz_de_expresion_reducida.txt",
-            sep = "\t", row.names = TRUE, col.names = FALSE)
+            sep = "\t", row.names = TRUE, col.names = FALSE, quote = FALSE)
 
 ## Cutoff expression matrix to genes in PAM50 ##################################
 pam50_genes <- as.matrix(read.delim("pam50_genes.txt", header = F))

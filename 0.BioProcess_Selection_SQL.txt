@@ -1,0 +1,6 @@
+SELECT DISTINCT descendant.acc, descendant.name, descendant.term_type
+FROM
+ term
+ INNER JOIN graph_path ON (term.id=graph_path.term1_id)
+ INNER JOIN term AS descendant ON (descendant.id=graph_path.term2_id)
+WHERE term.name='nombre de término GO' AND distance <> 0 ;

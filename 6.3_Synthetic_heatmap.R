@@ -1,19 +1,19 @@
-###############################################################################
+################################################################################
 # Heatmap Sintético Grupos tumorales y grupos de procesos
 ### Author: Angel García-Campos https://github.com/AngelCampos
-###############################################################################
+################################################################################
 
-###############################################################################
+################################################################################
 ## Load Pathifier results and turn into a matrix
-###############################################################################
+################################################################################
 
 load ("PDS.RData")
 PDSmatrix <- mapply(FUN = c, PDS$scores)
 PDSmatrix <- t(PDSmatrix)
 
-###############################################################################
+################################################################################
 ## Generating and assigning labels for pathways used in the analysis
-###############################################################################
+################################################################################
 
 # Read input pathways from .txt
 pathways <- read.delim("pathways.txt", header = F)
@@ -42,18 +42,17 @@ if (!require("RColorBrewer")) {
   library(RColorBrewer)
 }
 
-###############################################################################
+################################################################################
 ## Creating Palette
-###############################################################################
+################################################################################
 
 # creates a own color palette passing from blue, green yellow to red
 my_palette <- colorRampPalette(c("blue", "cyan", "chartreuse1", "yellow", 
                                  "red", "firebrick4"))(n = 1000)
 
-
-###############################################################################
+################################################################################
 ## Clustering Methods
-###############################################################################
+################################################################################
 
 row.distance = dist(PDSmatrix, method = "euclidean")
 row.cluster = hclust(row.distance, method = "ward.D2")
@@ -66,18 +65,24 @@ col.cluster = hclust(col.distance, method = "ward.D2")
 ###############################################################################
 
 mycl <- cutree(col.cluster, k= 6)
-mycl <-sub(2,1L,mycl); mycl <- sub(3,2L,mycl); mycl <- sub(4,3L,mycl)
-mycl <- sub(5,4L,mycl); mycl <- sub(6,5L,mycl); mycl <- as.integer(mycl)
+mycl[mycl==2] <- 1; mycl[mycl==3] <- 2; mycl[mycl==4] <- 3; mycl[mycl==5] <- 4
+mycl[mycl==6] <- 5
 mycolhc <- rainbow(length(unique(mycl)), start=0.1, end=0.9)
 mycolhc <- mycolhc[as.vector(mycl)]
+#Escribir resultados en archivo
+write.table(x = as.matrix(mycl), file = "Samples_by_subgroup.txt", sep = "\t",
+            quote = F, col.names = F)
 
 myrw <- cutree(row.cluster, k = 9)
 myrowhc <- rainbow(length(unique(myrw)), start=0.1, end=0.9)
 myrowhc <- myrowhc[as.vector(myrw)]
+# Write res to file
+write.table(x = as.matrix(myrw), file = "BioProcess_by_cluster.txt", sep = "\t",
+            quote = F, col.names = F)
 
-###############################################################################
+################################################################################
 ## Dividing the processes in groups 
-###############################################################################
+################################################################################
 
 png(paste("Synthetic_Heatmap_9.png", sep = ""), # Name of png file       
     width = 7.5 * 500,      # Easier re-scaling X*500 = Y pixels
@@ -97,7 +102,7 @@ heatmap.2(PDSmatrix,
           keysize= 0.8,           # size of color key
           ## Color labeling columns (Opt. RowSideColors for rows)
           ColSideColors= mycolhc,
-          RowSideColors= myrowhc    # Samples 62-880
+          RowSideColors= myrowhc    # Apotosis = orange; autophagy =  yellow
 )
 
 par(lend = 1)           # square line ends for the color legend
@@ -154,13 +159,13 @@ sumPDS <- cbind(x1,x2,x3,x4,x5)
 sumPDSPRIME <- sumPDS[c(7,9,1,3,5,2,8,4,6), c(1,4,5,3,2)]
 rownames(sumPDSPRIME) <- c("BPG1","BPG2","BPG3","BPG4","BPG5","BPG6","BPG7",
                            "BPG8","BPG9")
-colnames(sumPDSPRIME) <- c("SG0","SG1","SG2","SG3","SG4")
+colnames(sumPDSPRIME) <- c("Healthy","basal+her2","lumB","lumA","lumB+her2")
 
-sumPDSsignif <- signif(sumPDSPRIME, 2)
+sumPDSsignif <- signif(sumPDSPRIME, 2) # Round results to 2 decimals
 
-###############################################################################
+################################################################################
 ## Plotting the SYNTHETIC Heatmap!! (where all colorful things happen... again)
-###############################################################################
+################################################################################
 # creates a own color palette passing from blue, green yellow to red
 new_palette <- colorRampPalette(c("blue", "cyan", "chartreuse1", "yellow", 
                                  "red", "firebrick4"))(n = 100)
@@ -170,13 +175,13 @@ png(paste("Synthetic_Heatmap.png", sep = ""), # Name of png file
     height = 7.5 * 400,     # 6 x 400 = 2400 px
     units = "px",         # px (Pixels = default), in (inches), cm or mm
     res = 300,            # 300 pixels per inch
-    pointsize = 20)        # font size
+    pointsize = 17)        # font size
 
 heatmap.2(sumPDSPRIME,
           density.info= "none",  # turns off density plot inside color legend
           trace= "none",         # turns off trace lines inside the heat map
           key = FALSE,
-          # margins= c(5,20),     # widens margins around plot
+          margins= c(9,5),     # widens margins around plot
           col=new_palette,        # use on color palette defined earlier 
           Rowv = "none", # apply selected clustering method
           Colv = "none", # apply selected clustering method
@@ -191,16 +196,16 @@ dev.off()               # close the PNG device
 
 png(paste("SQ_Synthetic_Heatmap.png", sep = ""), # Name of png file       
     width = 5.5 * 400,      # Easier re-scaling X*500 = Y pixels
-    height = 9 * 400,     # 6 x 400 = 2400 px
+    height = 9.5 * 400,     # 6 x 400 = 2400 px
     units = "px",         # px (Pixels = default), in (inches), cm or mm
     res = 300,            # 300 pixels per inch
-    pointsize = 20)        # font size
+    pointsize = 17)        # font size
 
 heatmap.2(sumPDSPRIME,
           density.info= "none",  # turns off density plot inside color legend
           trace= "none",         # turns off trace lines inside the heat map
           key = FALSE,
-          # margins= c(5,20),     # widens margins around plot
+          margins= c(9,5),     # widens margins around plot
           col=new_palette,        # use on color palette defined earlier 
           Rowv = "none", # apply selected clustering method
           Colv = "none", # apply selected clustering method
@@ -215,16 +220,16 @@ dev.off()               # close the PNG device
 
 png(paste("SQ_Synthetic_Heatmap_cuantitative.png", sep = ""), # Name of png file
     width = 5.5 * 400,      # Easier re-scaling X*500 = Y pixels
-    height = 9 * 400,     # 6 x 400 = 2400 px
+    height = 9.5 * 400,     # 6 x 400 = 2400 px
     units = "px",         # px (Pixels = default), in (inches), cm or mm
     res = 300,            # 300 pixels per inch
-    pointsize = 20)        # font size
+    pointsize = 17)        # font size
 
 heatmap.2(sumPDSPRIME,
           density.info= "none",  # turns off density plot inside color legend
           trace= "none",         # turns off trace lines inside the heat map
           key = FALSE,
-          # margins= c(5,20),     # widens margins around plot
+          margins= c(9,5),     # widens margins around plot
           col=new_palette,        # use on color palette defined earlier 
           Rowv = "none", # apply selected clustering method
           Colv = "none", # apply selected clustering method

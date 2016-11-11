@@ -53,7 +53,7 @@ PDS<-quantify_pathways_deregulation(DATASET$data, DATASET$allgenes,
                                     PATHWAYS$gs,
                                     PATHWAYS$pathwaynames,
                                     DATASET$normals, attempts = 100,
-                                    logfile="logfile.txt", min_std = 0.1889568)
+                                    logfile="logfile.txt", min_std = 0.3957552)
 # Remove unnecesary data
 rm(gene_sets, data, exp.matrix, allgenes, DATASET, allgenes, PATHWAYS)
 

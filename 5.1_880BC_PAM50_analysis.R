@@ -80,3 +80,24 @@ rownames(q) <- rownames(p)
 
 # Write as tab separated TXT file
 write.table(x = q, file = "PAM50subt_numeric.txt", sep = "\t")
+
+#Remplazo de subtipos
+# Normal = 1, Basal = 2, LumA = 3, LumB = 4, Her2 = 5
+x <- read.table(file = "subtypes_pam50.txt", header = T, sep = "\t", row.names = 1)
+p <- as.matrix(x)
+
+subt <- c("1","2","3","4","5")
+subt <- c(1,2,3,4,5)
+
+q <- replace(x = p ,list = "Normal" == p, values = subt[1])
+q <- replace(x = q ,list = "Basal" == p, values = subt[2])
+q <- replace(x = q ,list = "LumA" == p, values = subt[3])
+q <- replace(x = q ,list = "LumB" == p, values = subt[4])
+q <- replace(x = q ,list = "Her2" == p, values = subt[5])
+
+q <- t(as.matrix((as.numeric(q))))
+colnames(q) <- colnames(p)
+rownames(q) <- rownames(p)
+
+# Write as tab separated TXT file
+write.table(x = q, file = "PAM50subt_numeric.txt", sep = "\t")
